@@ -4,6 +4,9 @@
 ## 环境依赖
 * python3.6
 * torch
+* torchtext
+* pyhanlp
+* sanic
 
 
 ## 项目结构
