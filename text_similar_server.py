@@ -4,16 +4,9 @@ from predict import text_similar, text_similar_multiple
 from sanic import Sanic
 from sanic import response
 import json
-import os
-import pandas as pd
+
 
 app = Sanic()
-
-ss_model = SS()
-
-text = "cut_clean"
-ss_model_path = os.path.join('ss_saves', text)
-ss_model.load(ss_model_path)
 
 
 @app.route('/kefu_text_similar', methods=['POST'])

@@ -13,8 +13,13 @@
 ```
 kefu_text_similar
 ├── config.py
+├── data
+│   ├── atec_nlp_sim_train_add.csv
+│   └── atec_nlp_sim_train.csv
+├── data_utils.py
 ├── dict
-│   └── stopwords_v2.txt
+│   ├── atec_words.txt
+│   └── stop_words.txt
 ├── lightnlp_ss.py
 ├── model.py
 ├── module.py
@@ -22,7 +27,7 @@ kefu_text_similar
 ├── README.md
 ├── requirements.txt
 ├── ss
-├── ss_save
+├── ss_saves
 ├── start_server.sh
 ├── text_similar_server.py
 ├── tool.py
@@ -41,3 +46,10 @@ kefu_text_similar
 
 ## 运行
 sh start_server.sh
+
+
+## Reference
+
+1 [lightnlp](https://github.com/smilelight/lightNLP)
+
+2 [ATEC-NLP](https://github.com/yuxuan2015/ATEC-NLP)
