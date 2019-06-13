@@ -1,10 +1,5 @@
 #-*- coding:utf-8 _*-
-"""
-@author:lyy
-@file: text_similarity.py
-@time: 2019/06/12
-@Software: PyCharm
-"""
+
 
 from module import SS
 import pandas as pd
