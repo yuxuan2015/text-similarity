@@ -13,22 +13,22 @@
 ```
 kefu_text_similar
 ├── config.py
-├── getConfig.py
-├── lightNLP_server.py
+├── dict
+│   └── stopwords_v2.txt
 ├── lightnlp_ss.py
 ├── model.py
 ├── module.py
+├── predict.py
 ├── README.md
 ├── requirements.txt
-├── similar_config.ini
-├── ss_saves
-│   └── cut_clean
-│       ├── config.pkl
-│       └── model.pkl
+├── ss
+├── ss_save
 ├── start_server.sh
+├── text_similar_server.py
 ├── tool.py
 └── utils
     ├── config.py
+    ├── cut_words.py
     ├── learning.py
     ├── log.py
     ├── model.py

@@ -14,7 +14,7 @@ torch.manual_seed(seed)
 torch.cuda.manual_seed(seed)
 
 regex = re.compile(r'[^\u4e00-\u9fa5aA-Za-z0-9，。？：！；“”]')
-stopwords_set = set([value.strip().replace('\n', '') for value in open('dict/stopwords_v2.txt').readlines()])
+stopwords_set = set([value.strip().replace('\n', '') for value in open('dict/stop_words.txt').readlines()])
 
 ##使用hanlp分词
 def seg_text(text):
